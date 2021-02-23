@@ -47,10 +47,10 @@
 
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| Adres IP      |         |  |
-| Maska podsieci|  |     |
-| Brama         |         |  |
-| DNS 1         |       |      |
+| Adres IP      | 10.0.2.15 | ip addr |
+| Maska podsieci| /8  |   ip addr  |
+| Brama         |   10.0.2.2      | ip route show |
+| DNS 1         |       |   cat etc/resolve.com   |
 | DNS 2         |          |    |
 
 ### Schemat sieci
