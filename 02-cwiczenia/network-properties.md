@@ -55,11 +55,15 @@ Wejściowe parametry sieci
 Weryfikacja połączenia
 
 Polecenie
-```
-```
+-------Pierwszy eksperyment---------
+PC1 ip addr add 192.168.10.10/24 dev eth0
+PC2 ip addr add 192.168.10.11/17 dev eth0
+-------Drugi eksperyment---------
+PC2 ip addr add 172.16.100.100/16 dev eth0
 
 Efekt
-```
+ping 192.168.10.11 -> działa
+ping 172.16.100.100 -> nie działa
 ```
 
 Nowa statyczna konfiguracja 
